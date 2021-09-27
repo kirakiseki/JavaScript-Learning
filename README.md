@@ -16,13 +16,7 @@
 
 暂时会有个学习的路线如下
 
+![image.png](https://i.loli.net/2021/09/27/7u2FatlnwPQfs9R.png)
 
+慢慢来吧...
 
-```mermaid
-graph LR
-A(JavaScript) -->B(React.js)
-    B --> C(Node.js)
-C --> D(Electron)
-```
-
- 慢慢来吧...
