@@ -16,7 +16,7 @@
 
 暂时会有个学习的路线如下
 
-![image.png](https://i.loli.net/2021/09/27/7u2FatlnwPQfs9R.png)
+![image.png](https://i.loli.net/2021/09/27/y7X34NOTGQngVZr.png)
 
-慢慢来吧...
+慢慢来，祝自己好运 : )
 
