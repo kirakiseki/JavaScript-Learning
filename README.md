@@ -2,7 +2,7 @@
 
 ~~RE:从零开始的JavaScript学习计划~~
 
-<img src="https://img.shields.io/github/last-commit/kirakiseki/JavaScript-Learning?style=flat-square"/> <img src="https://img.shields.io/github/license/kirakiseki/JavaScript-Learning?style=flat-square"/><img src="https://img.shields.io/badge/Written_by-Ishirai-FFAE00.svg?style=flat-square"/>
+<img src="https://img.shields.io/github/last-commit/kirakiseki/JavaScript-Learning?style=flat-square"/> <img src="https://img.shields.io/github/license/kirakiseki/JavaScript-Learning?style=flat-square"/>  <img src="https://img.shields.io/badge/Written_by-Ishirai-FFAE00.svg?style=flat-square"/>
 
 虽然在前端瞎搞了很长时间，但是JS却是基本没啥接触，所以就想着说系统性的学习一下JavaScript。
 
