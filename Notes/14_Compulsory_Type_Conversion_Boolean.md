@@ -16,3 +16,14 @@ a = Boolean(a);
 console.log(a); //true
 ```
 
+## 隐式类型转换
+
+```js
+var a = 10;
+a=!!a;
+console.log(a); //true
+console.log(typeof(a)); //boolean
+```
+
+
+
