@@ -42,3 +42,11 @@ console.timeEnd("test");
 
 停止一个名字为test的计时器
 
+
+
+## 开方
+
+```js
+var a = Math.sqrt(36);
+```
+
