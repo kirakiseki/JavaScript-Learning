@@ -12,6 +12,10 @@
 
 
 
+---
+
+开始看[现代 JavaScript 教程](https://zh.javascript.info/)，练习题放在`/Practice`里面。
+
 ----
 
 暂时会有个学习的路线
