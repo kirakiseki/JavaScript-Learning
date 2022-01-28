@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script type="text/javascript">
+      "use strict";
+      function pow(x, n) {
+        let result = x;
+        for (let i = 1; i < n; i++) {
+          result *= x;
+        }
+        return result;
+      }
+      let num = +prompt("num");
+      alert(pow(num, 3));
+    </script>
+  </body>
+</html>
