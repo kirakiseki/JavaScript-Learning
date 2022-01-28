@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script type="text/javascript">
+      "use strict";
+      function multiplyNumeric(obj) {
+        for (let key in obj) {
+          if (typeof obj[key] =="number") {
+            alert("test");
+            obj[key] *= 2;
+          }
+        }
+      }
+      let menu = {
+        width: 200,
+        height: 300,
+        title: "My menu",
+      };
+      multiplyNumeric(menu);
+    </script>
+  </body>
+</html>
