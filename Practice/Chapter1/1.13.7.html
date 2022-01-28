@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script type="text/javascript">
+      "use strict";
+        let num=+prompt("input num");
+        for (let i=2; i<=num; i++) {
+            let j=2,flag=true;
+            for (; j<=Math.sqrt(i); j++) {
+                if(i%j==0) {
+                    flag=false;
+                    break;
+                }
+            }
+            if(flag){
+                console.log(i+" ");
+            }
+        }
+    </script>
+  </body>
+</html>
