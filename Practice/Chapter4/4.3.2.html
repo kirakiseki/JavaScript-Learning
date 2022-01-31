@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script type="text/javascript">
+      "use strict";
+      function checkSpam(str) {
+        str = str.toLowerCase();
+        return str.includes("viagra") || str.includes("xxx");
+      }
+      alert(checkSpam("buy ViAgRA now") == true);
+      alert(checkSpam("free xxxxx") == true);
+      alert(checkSpam("innocent rabbit") == false);
+    </script>
+  </body>
+</html>
