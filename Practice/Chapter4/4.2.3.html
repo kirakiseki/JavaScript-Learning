@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script type="text/javascript">
+      "use strict";
+        function readNumber(){
+            let a;
+            do{
+                a=prompt("Input num");
+            }while(!isFinite(a));
+            if(a==null||a==''){
+                return null;
+            }
+            else{
+                return Number(a);
+            }
+        }
+        alert(readNumber());
+    </script>
+  </body>
+</html>
