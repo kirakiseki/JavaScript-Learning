@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script type="text/javascript">
+      "use strict";
+      function sumInput() {
+        let num,
+          sum = 0,
+          array = [];
+        while (true) {
+          num = prompt("Input num");
+          if (!isFinite(num) || num == null || num == "") {
+            break;
+          }
+          array.push(Number(num));
+        }
+        for (let i of array) {
+          sum += i;
+        }
+        return sum;
+      }
+      alert(sumInput());
+    </script>
+  </body>
+</html>
