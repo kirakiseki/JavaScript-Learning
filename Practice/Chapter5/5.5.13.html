@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script type="text/javascript">
+      "use strict";
+        function groupById(users){
+            let result= {};
+            users.reduce(function(result,item){
+                result[item.id] = item;
+                return result;
+            },{});
+            return result;
+        }
+    </script>
+  </body>
+</html>
