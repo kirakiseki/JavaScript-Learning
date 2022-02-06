@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script type="text/javascript">
+      "use strict";
+      function Calculator() {
+        (this.calculate = function (str) {
+          let splitResult = str.split(" ");
+          let a = +splitResult[0];
+          let op = splitResult[1];
+          let b = +splitResult[2];
+          return this.method[op](a, b);
+        }),
+          (this.method = {
+            "+": (a, b) => a + b,
+            "-": (a, b) => a - b,
+          }),
+          (this.addMethod = function (name, func) {
+            this.method[name] = func;
+          });
+      }
+      let powerCalc = new Calculator();
+      powerCalc.addMethod("*", (a, b) => a * b);
+      powerCalc.addMethod("/", (a, b) => a / b);
+      powerCalc.addMethod("**", (a, b) => a ** b);
+
+      let result = powerCalc.calculate("2 ** 3");
+      alert(result); // 8
+    </script>
+  </body>
+</html>
