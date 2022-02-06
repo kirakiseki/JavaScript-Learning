@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script type="text/javascript">
+      "use strict";
+      function desendSort(arr) {
+        //return arr.sort().reverse();
+        return arr.sort((a,b)=>b-a);
+      }
+      let arr = [5, 2, 1, -10, 8];
+
+      desendSort(arr);
+
+      alert(arr); // 8, 5, 2, 1, -10
+    </script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script type="text/javascript">
+      "use strict";
+      function camelize(str) {
+        // let splitResult=[] = str.split("-");
+        // let toUpperResult = splitResult.map((item, index) =>
+        //   index == 0 ? item : item[0].toUpperCase() + item.substring(1)
+        // );
+        // let result= toUpperResult.join("");
+        // return result;
+        return str.split("-").map((item, index) =>index == 0 ? item : item[0].toUpperCase() + item.substring(1)).join("");
+      }
+      alert(camelize("background-color"));
+      alert(camelize("list-style-image"));
+      alert(camelize("-webkit-transition"));
+    </script>
+  </body>
+</html>

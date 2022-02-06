@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script type="text/javascript">
+      "use strict";
+      function filterRange(arr, a, b) {
+        let result = [];
+        arr.forEach(function (item) {
+          if (item >= a && item <= b) {
+            result.push(item);
+          }
+        });
+        return result;
+      }
+      let arr = [5, 3, 8, 1];
+
+      let filtered = filterRange(arr, 1, 4);
+
+      alert(filtered); // 3,1（匹配值）
+
+      alert(arr); // 5,3,8,1（未修改）
+    </script>
+  </body>
+</html>
