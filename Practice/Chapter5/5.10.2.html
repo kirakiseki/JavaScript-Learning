@@ -2,25 +2,25 @@
 <html>
   <body>
     <script type="text/javascript">
-            "use strict";
-              function topSalary(salaries){
-                  if(salaries.length==0){
-                      return null;
-                  }
-                  let top={person:"",salary:0};
+      "use strict";
+      function topSalary(salaries) {
+        if (salaries.length == 0) {
+          return null;
+        }
+        let top = { person: "", salary: 0 };
 
-                  for(let [person,salary] of Object.entries(salaries)){
-                    if(salary>top.salary){
-                          top.person=person;
-                          top.salary=salary;
-                      }
-                  }
-                  return top.person;
-              }
-              let salaries = {
-        "John": 100,
-        "Pete": 300,
-        "Mary": 250
+        for (let [person, salary] of Object.entries(salaries)) {
+          if (salary > top.salary) {
+            top.person = person;
+            top.salary = salary;
+          }
+        }
+        return top.person;
+      }
+      let salaries = {
+        John: 100,
+        Pete: 300,
+        Mary: 250,
       };
       alert(topSalary(salaries));
     </script>
