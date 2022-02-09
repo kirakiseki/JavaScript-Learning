@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script type="text/javascript">
+      "use strict";
+      //   function getWeekDay(date) {
+      //     return date.toString().toUpperCase().substring(0,2);
+      //   }
+      function getWeekDay(date) {
+        let days = ["SU", "MO", "TU", "WE", "TH", "FR", "SA"];
+
+        return days[date.getDay()];
+      }
+      let date = new Date(2012, 0, 3); // 3 Jan 2012
+      alert(getWeekDay(date)); // 应该输出 "TU"
+    </script>
+  </body>
+</html>

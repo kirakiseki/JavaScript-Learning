@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script type="text/javascript">
+      "use strict";
+    //   function getSecondsToday() {
+    //     let dateInit = new Date().setHours(0, 0, 0, 0);
+    //     let dateNow = new Date();
+    //     return Math.floor((dateNow - dateInit) / 1000);
+    //   }
+      function getSecondsToday() {
+        let now = new Date();
+
+        // 使用当前的 day/month/year 创建一个对象
+        let today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+
+        let diff = now - today; // ms difference
+        return Math.round(diff / 1000); // make seconds
+      }
+      alert(getSecondsToday());
+    </script>
+  </body>
+</html>
