@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script type="text/javascript">
+      "use strict";
+        function getSecondsToTomorrow() {
+            let dateNow = new Date();
+            let dateTomorrow = new Date();
+            dateTomorrow.setDate(dateNow.getDate() +1);
+            dateTomorrow.setHours(0,0,0,0);
+            return Math.floor((dateTomorrow-dateNow)/1000);
+        }
+        alert(getSecondsToTomorrow());
+    </script>
+  </body>
+</html>
